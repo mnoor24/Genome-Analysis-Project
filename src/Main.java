@@ -28,7 +28,7 @@ public class Main {
             String[] s = scanner.nextLine().split(",");
 
             // use amino acid table file content to create AminoAcid objects
-            aminoAcidList.add(new AminoAcid(s[0], s[1], Arrays.copyOfRange(s, 3, s.length)));
+            aminoAcidList.add(new AminoAcid(s[0], s[2], Arrays.copyOfRange(s, 3, s.length)));
         }
 
         // close amino acid table file
