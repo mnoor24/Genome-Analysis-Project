@@ -13,11 +13,11 @@ public class Gene {
         return acids;
     }
 
-    public int getstartPosition() {
+    public int getStartPosition() {
         return startPosition;
     }
 
-    public int getendPosition() {
+    public int getEndPosition() {
         return endPosition;
     }
 
